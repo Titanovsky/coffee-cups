@@ -1,0 +1,32 @@
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(232, 232, 234);
+    opacity: 1;
+    font-size: 64px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-stroke: 4px black;
+}
+
+.button_click_panel {
+    width: 55%;
+    height: 86%;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-image: url( "/materials/garry.png" );
+    background-repeat: no-repeat;
+}
+
+.button_click {
+    width: 70%;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    pointer-events: all;
+}

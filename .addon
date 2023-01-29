@@ -1,0 +1,28 @@
+{
+  "Title": "Garry\u0027s Clicker",
+  "Type": "game",
+  "Org": "titanovsky",
+  "Ident": "garrys_clicker",
+  "Tags": "",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "GameNetworkType": "Singleplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "ProjectTemplate": null,
+    "GameCategory": "Meme",
+    "ControlModes": {
+      "Keyboard": true
+    }
+  }
+}
