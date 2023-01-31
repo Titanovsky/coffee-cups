@@ -1,0 +1,39 @@
+﻿MainPanel {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(232, 232, 234);
+    opacity: 1;
+    font-size: 72px;
+    font-weight: 900;
+    color: #0aacfa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-stroke: 4px black;
+    pointer-events: all;
+}
+
+.btn-garry {
+    width: 370px;
+    height: 400px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-image: url( "/materials/garry.png" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    /*background-color: rgb(255, 0, 0);*/ /* debug */
+}
+
+.clicks {
+    position: absolute;
+    margin-right: auto;
+    text-align: right;
+    top: 0;
+    right: 0;
+    width: 370px;
+    /*background-color: rgb(255, 0, 0);*/ /* debug */
+}

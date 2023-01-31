@@ -1,0 +1,18 @@
+﻿@using Sandbox;
+@using Sandbox.UI;
+@attribute [StyleSheet("/UI/Styles.scss")]
+
+<root>
+    <button @onclick=@( () => Click() ) class="btn-garry" style = "width=@ButtonW"></button>
+    <label class="clicks">Clicks: @GClicker.Clicks</label>
+</root>
+
+@code 
+{
+    public Length? ButtonW = Length.Pixels(370f); // I don't know, what it don't work. 
+    
+    public void Click()
+    {
+        GClicker.AddClicks();
+    }
+}
